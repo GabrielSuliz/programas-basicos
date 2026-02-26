@@ -1,0 +1,12 @@
+# importar math
+import math
+#
+#digitar valores
+print("conversor de Fahrenheit para Celsius ")
+print("digite o valor") 
+#
+#formula
+f= float(input())
+f2= (f * 9/5 + 32)
+# resultado
+print("Celius é igual á:",f2)
