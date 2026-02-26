@@ -1,0 +1,14 @@
+#importar a galeria math
+import math
+print("calculo da raiz quadrada ate a quarta potencia")
+# input para digitar o valor
+num1 = float(input())
+# calculo das potencias
+r2 = math.pow(num1,2)
+r3 = math.pow(num1,3)
+r4 = math.pow(num1,4)
+#valor do resultado
+print("seu resultado:")
+print("da quadrada:",r2)
+print("do cubo:",r3)
+print("da quarta:",r4)
