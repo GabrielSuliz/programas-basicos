@@ -15,8 +15,8 @@ if altura < 3: print("seu rato(ou camundongo) deve estar obeso")
 masculino = 72.7 * altura -58
 feminino = 62.1 * altura -44.7
 
-print("seu peso é:")
-if genero == feminino:
+if altura > 3 : print("seu peso é:")
+if genero  and altura < 3== feminino:
     print(feminino)
-else:
+elif altura > 3:
     print(masculino)
