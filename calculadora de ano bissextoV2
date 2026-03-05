@@ -1,0 +1,23 @@
+ano = int(input("digite um ano (ex:1900):"))
+if ano %4 == 0 and ano %100 == 0 and ano %400 == 0:
+    bissexto = True
+    print("seu ano é bissesto") and ano == p1
+elif ano  %4 == 0 and ano %100 == 0:
+    print("normal")
+elif ano  %4 == 0:
+ bissexto = True
+ print ("bissexto")
+else: print("ano normal")
+
+mes = int(input("digite um mes (ex: 8)"))
+if mes == 2: 
+    if bissexto == True:
+        print ("29 dias")
+    else: print ("28 dias")
+
+elif mes == 1 and mes == 5 and mes ==  7 and mes == 10 and  mes == 12:
+    print ("31 dias")
+elif mes == 3 and mes == 9:
+    print ("29 dias")
+elif mes == 4 and mes == 6 and mes == 8 and mes == 9:
+    print ("30 dias")
