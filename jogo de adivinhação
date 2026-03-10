@@ -1,0 +1,9 @@
+import random
+
+sorteio = random.randint(1, 10)
+for tentativa in range(10):
+    chute = int(input(f"tentativa{tentativa + 1}/10 - chute um numero: "))
+    if chute == sorteio:
+        print ("tu é brabo")
+        break
+    else: print("errou feio")
